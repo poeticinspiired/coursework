@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sandy and Leslie's apartment</title>
+    <link rel="stylesheet" href="apartment_layout.css" />
+    <style>
+      /* Embedded styles for individual pages */
+      /* styles for this page only */
+    </style>
+    <link rel="stylesheet" type="text/css" href="apartment_layout.css">
+        <link rel="stylesheet" type="text/css" href="printstyles.css">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
+  </head>
+  <body>
+   <div class="main">
+            <div class="top">
+    <h1>Sandy and Leslie's apartment</h1>
+	<p>Click a room for a deailed view.</p>
+    <img src="fimages/apartmentfloorplan.jpg" alt="Floor plan of the apartment" />
+    <map name="apartment-map">
+      <area shape="rect" coords="51,1,200,150" href="bedroom.html" alt="Bed1" title="Bedroom 1"/>
+      <area shape="poly" coords="420,265,590,463" href="bedroom.html" alt="Bed2" title="Bedroom 2"/>
+      <area shape="circle" cords="470,225,51" href="diningroom.html" alt="Dining" title="Dining Room"/>
+      <area shape="rect" coords="222,239,400,300" href="kitchen.html" alt="Kitchen" title="Kitchen"/>
+      <area shape="rect" href="livingroom.html" alt="Living" title="Living Room" coords="215,9,405,10,390,130,337,174,210,160">
+                    <area shape="default" href="apartment.html" alt="apartment" title="Apartment">
+    </map>
+    <nav>
+      <ul>
+        <li><a href="apartment.html" class="nav-btn"> Apartment </a><span>|</span></li> 
+        <li><a href="bedroom.html" class="nav-btn"> Bedroom 1 </a><span>|</span></li>
+        <li><a href="bedroom.html" class="nav-btn"> Bedroom 2 </a><span>|</span></li>
+        <li><a href="diningroom.html" class="nav-btn"> Dining Room </a><span>|</span></li>
+        <li><a href="kitchen.html"class="nav-btn"> Kitchen </a><span>|</span></li>
+        <li><a href="livingroom.html" class="nav-btn"> Living Room </a></li>
+      </ul>
+    </nav>
+	 </div>
+	 
+    <table>
+      <tr>
+        <th>Gym and Pool Hours</th>
+        <td>Monday - Friday 6am - 10pm, Saturday 8am - 8pm, Sunday 8am - 5am</td>
+      </tr>
+      <tr>
+        <th>Laundry</th>
+        <td>24 hours, 7 days per week</td>
+      </tr>
+    </table>
+    <h2>Gallery</h2>
+    <div>
+      <img src="bedroom1.jpg" alt="Picture of bedroom 1" />
+      <img src="bedroom2.jpg" alt="Picture of bedroom 2" />
+      <img src="diningroom.jpg" alt="Picture of dining room" />
+      <img src="kitchen.jpg" alt="Picture of kitchen" />
+      <img src="livingroom.jpg" alt="Picture of living room" />
+    </div>
+  </body>
+</html>
